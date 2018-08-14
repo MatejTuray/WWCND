@@ -1,0 +1,29 @@
+.header{
+    background: $off-black;
+    margin-bottom: $m-size;
+    padding: 0;
+    color:white;
+    text-align: left;
+    font-size: $m-size;
+};
+.blockquote{
+    text-align: center;
+    font-weight: 700;
+    color: $off-white;
+    font-size: $m-size;
+};
+
+.blockquote-footer{
+    font-size: $m-size;
+}
+.header__title{
+    font-size: $l-size;
+    text-align: center;
+    margin:0;
+    
+    
+}
+.header__title:hover{
+    color:rgb(255, 95, 2);
+    cursor: pointer;
+}

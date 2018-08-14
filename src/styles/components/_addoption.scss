@@ -1,0 +1,37 @@
+.addoption-error{
+    font-style: italic;
+    color: $off-white;
+    margin: $m-size 0 0 0;
+    padding: 0 $m-size;
+}
+.addoption{
+    display: flex;
+    padding: $m-size;
+    flex-direction: column;
+}
+.addoption__input{
+    background: $dark-blue;
+    border: none;
+    border-bottom: .3rem solid darken($color: $dark-blue, $amount: 10);
+    color: $off-white;
+    flex-grow: 1;
+    margin: 0 0 $s-size 0;
+    
+    padding: $m-size;
+    outline-style: outset;
+
+}
+::placeholder{
+    color:$off-white;
+}
+@media (min-width: $desktop-breakpoint){
+    .addoption{
+        flex-direction: row;
+    }
+    .addoption{
+        margin: 0 $m-size 0 0;
+    }
+    .addoption__input{
+        margin-right: 1rem;
+    }
+}
