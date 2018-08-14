@@ -9,8 +9,8 @@
 .blockquote{
     text-align: center;
     font-weight: 700;
-    color: $off-white;
-    font-size: $m-size;
+    color: lighten($off-white, 10);
+    font-size: $l-size;
 };
 
 .blockquote-footer{
