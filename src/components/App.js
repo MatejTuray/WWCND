@@ -6,7 +6,7 @@ import Options from './Options';
 import OptionModal from './OptionModal';
 
 
-export default class IndecisionApp extends React.Component {
+export default class App extends React.Component {
       state = {
       options: [],
       selectedOption: undefined,
